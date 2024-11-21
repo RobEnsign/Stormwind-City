@@ -1,0 +1,107 @@
+body {
+    background-image: url("../images/stormwindcitybackground.jpg");
+    padding-top: 45px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+  nav ul{
+    list-style-type:none;
+    background-color: #3a3937;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 40px;
+    font-family: "Quintessential", serif;
+}
+
+nav li{
+    float: left;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  nav a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  nav a:hover{
+    background-color: #11378a;
+    color: white;
+  }
+
+  ul{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+  }
+
+  ul a{
+    color: rgb(225, 155, 56);
+  }
+  
+  ul a:hover{
+        text-shadow: 0 0 5px #000000;
+  }
+
+  #navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+  }
+
+  p{
+    font-family: "Quintessential";
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  footer {
+    padding: 0px;
+    height: 30vh;
+    background-color: #3a3937;
+    text-align: right;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font: 1.2em sans-serif;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.page-footer {
+  background-color: #3a3937;
+  color: #fff;
+  padding: 20px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+h1, h5 {
+  color: white;
+  font-family: Kings;
+  background-color: rgb(0, 0, 0, 0.5);
+  text-align: center;
+}
